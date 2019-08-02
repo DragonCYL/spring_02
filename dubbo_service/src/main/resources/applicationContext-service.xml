@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:dubbo="http://www.springframework.org/schema/dubbo"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+http://www.springframework.org/schema/dubbo ">
+
+    <!--    给项目服务起个名字-->
+    <dubbo:application name="dubbo-service"/>
+<!--    配置连接 zookeeper的ip和端口号-->
+    <dubbo:registry address=""/>
+</beans>
